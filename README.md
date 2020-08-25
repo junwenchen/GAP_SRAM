@@ -24,7 +24,6 @@ This repo is the PyTorch implementation of ([Group Activity Prediction with Sequ
 
 ## Get Started
     ```shell
-    # volleyball dataset
     python scripts/train_volleyball.py
     ```
     
