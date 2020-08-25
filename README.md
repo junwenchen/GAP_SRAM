@@ -23,9 +23,6 @@ This repo is the PyTorch implementation of ([Group Activity Prediction with Sequ
 
 
 ## Get Started
-
-2. Stage2: Fix weights of the feature extraction part of network, and train the network with GCN.
-
     ```shell
     # volleyball dataset
     python scripts/train_volleyball.py
