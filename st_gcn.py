@@ -303,7 +303,7 @@ class st_gcn(nn.Module):
         one_graph_boxes_features = one_graph_boxes_features.view(B,T,N,-1).permute(0,3,1,2)
         one_graph_boxes_features = self.tcn(one_graph_boxes_features)  #.permute(0,2,3,1)
 
-        return graph_boxes_features.mean(2).permute(0,2,1)
+        return one_graph_boxes_features.mean(2).permute(0,2,1)
 
 
 
